@@ -1,0 +1,95 @@
+/*bannerof the page*/
+
+.hpimg {
+   position: relative;   /* makes this container a reference */
+   width: 100%;          /* full width */
+   display: inline-block;
+}
+.hpimg img {
+  width: 100%;
+  height: auto;          /* keeps correct ratio */
+  display: block;
+}
+
+.fhed {
+  position: absolute;    /* puts the text over the image */
+  top: 50%;              /* adjust vertical position */
+  left: 50%;             /* adjust horizontal position */
+  transform: translate(-50%, -50%); /* centers text */
+  text-align: center;
+}
+
+.fh1 {
+  color: white;          /* visible over image */
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7); /* makes text pop out */
+  font-family: var(--ff-heebo);
+}
+
+
+/*body of  the page*/
+.state{
+    margin-top: 10%;
+    
+}
+
+
+
+.set{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap: 60px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+    
+    
+
+.stateimg{
+    position: relative;   /* makes this container a reference */
+   width: 100%;          /* full width */
+   display: inline-block;
+}
+
+.allimg{
+  width: 350px;
+  height: 300px;
+}
+    
+.s1 .img{
+    width: 100%;
+  height: auto;          /* keeps correct ratio */
+  display: block;
+}
+.stateimg .h1{
+    position: absolute;    /* puts the text over the image */
+  top: 50%;              /* adjust vertical position */
+  left: 50%;             /* adjust horizontal position */
+  transform: translate(-50%, -50%); /* centers text */
+  text-align: center;
+}
+.stateimg .h2{
+    position: absolute;    /* puts the text over the image */
+  top: 55%;              /* adjust vertical position */
+  left: 50%;             /* adjust horizontal position */
+  transform: translate(-50%, -50%); /* centers text */
+  text-align: center;
+}
+
+.h1{
+    color: white;          /* visible over image */
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7); /* makes text pop out */
+  font-family: var(--ff-heebo);
+}
+.h2{
+    color: rgb(255, 255, 255);          /* visible over image */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7); /* makes text pop out */
+  font-family: var(--ff-abril-fatface);
+}
